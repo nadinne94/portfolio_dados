@@ -40,11 +40,6 @@ O trabalho foi realizado com o objetivo de investigar as variáveis que impactam
 Análise dos dados de um restaurante fictício
 **Ferramentas:** SQL(SQLServer)
 
-### Dashboard - Power BI
-*[IMDB TOP Filmes](https://www.behance.net/gallery/180165445/IMDB-Top-10000-Filmes)*<br>
-*[Performance de Vendas](https://app.powerbi.com/view?r=eyJrIjoiNzY3MTQ3MTMtOGY1Zi00OWZkLTk4MDQtZWY3Mjk2YjUzYTVmIiwidCI6IjdmYTg3YmQ3LTU0NzgtNDQ4Yy05Yjk2LWYzYjZjNGEwYzliMCJ9)*<br>
-*[Campanha de Marketing](https://app.powerbi.com/view?r=eyJrIjoiM2RmNTIxMGEtMDFmZS00ODI3LTliNzgtOTdlMWRhYjJiMjNlIiwidCI6IjdmYTg3YmQ3LTU0NzgtNDQ4Yy05Yjk2LWYzYjZjNGEwYzliMCJ9)*<br>
-
 ---
 ## Bootcamps
 Os projetos realizados durante o bootcamp podem ser acessados no repositório abaixo:
