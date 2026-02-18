@@ -22,7 +22,7 @@ Atualmente, curso Análise e Desenvolvimento de Sistemas (UNICV) e busco uma opo
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ## Pipeline de Dados
-### [Pipeline de Dados - Arquitetura Medallion](https://github.com/nadinne94/pipeline_adventureworks/blob/main/README.md)
+### [AdventureWorks - Arquitetura Medallion](https://github.com/nadinne94/pipeline_adventureworks/blob/main/README.md)
 Pipeline de dados analítico baseado em arquitetura Medallion, com ingestão de dados AdventureWorks, tratamento por entidades de negócio, governança básica e modelagem dimensional para consumo analítico.
 
 ### [Projeto Engenharia de Dados End-to-End com Azure](https://github.com/nadinne94/azure-end-to-end-data-engineer-project)
