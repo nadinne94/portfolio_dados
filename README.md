@@ -1,5 +1,5 @@
 # Nadinne Cavalcante Silva
-## Engenheira de Dados Júnior
+## Engenheira de Dados
 
 Profissional experiência multidisciplinar, agora direcionando minha carreira para a área de dados. Possuo capacitação técnica recente e projetos práticos que demonstram habilidades em Python (Pandas, NumPy), SQL, Pipeline de Dados, Visualização de Dados, aliadas a uma base analítica robusta.
 
