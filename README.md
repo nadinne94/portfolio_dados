@@ -41,6 +41,51 @@ Principais conceitos aplicados:
 * Queries SQL complexas
 * Organização e versionamento com Git
 
+#### Arquitetura do Projeto
+O projeto foi estruturado seguindo o conceito de **Lakehouse Architecture**, combinando características de Data Lake e Data Warehouse.
+
+A arquitetura foi organizada em três camadas:
+
+##### Bronze Layer
+* Armazenamento de dados brutos (raw data)
+* Dados ingeridos sem transformações significativas
+* Preservação do formato original para rastreabilidade
+
+##### Silver Layer
+* Limpeza e transformação dos dados
+* Padronização de tipos e nomes de colunas
+* Tratamento de inconsistências
+* Preparação para modelagem analítica
+
+##### Gold Layer
+* Modelagem dimensional utilizando **Star Schema**
+* Criação de tabelas fato e dimensão
+* Estrutura otimizada para consultas analíticas
+* Foco em performance e clareza de métricas
+
+A ingestão e transformação foram realizadas com **PySpark**, garantindo escalabilidade e capacidade de processamento distribuído.
+
+#### Conceitos Aplicados
+* ETL (Extract, Transform, Load)
+* Arquitetura Lakehouse
+* Modelagem Dimensional
+* Star Schema
+* Tabelas Fato e Dimensão
+* JOINs complexos
+* CTE (Common Table Expressions)
+* Window Functions
+* Versionamento de dados com Delta Lake
+* Organização e versionamento de código com Git
+
+#### Escalabilidade e Evolução
+
+Em um ambiente produtivo, poderiam ser aplicadas melhorias como:
+* Particionamento de dados por data
+* Monitoramento e logging do pipeline
+* Validação de qualidade de dados
+* Processamento incremental
+* Orquestração com ferramenta dedicada (ex: Airflow)
+
 🔗 [Acessar Projeto](https://github.com/nadinne94/pipeline_adventureworks/blob/main/README.md)
 
 ### Azure End-to-End Data Engineering
@@ -51,6 +96,38 @@ Principais conceitos aplicados:
 * Data Lake Storage
 * Synapse Analytics
 * Organização em camadas analíticas
+
+#### Arquitetura do Projeto
+
+Este projeto implementa um pipeline de dados em ambiente Microsoft Azure, simulando um cenário corporativo de engenharia de dados.
+
+A arquitetura é composta por:
+
+##### Azure Data Factory
+* Responsável pela orquestração do pipeline
+* Ingestão de dados de múltiplas fontes
+* Definição de fluxos de transformação
+
+##### Azure Data Lake Storage
+* Armazenamento escalável de dados brutos e transformados
+* Organização em camadas analíticas
+
+##### Azure Synapse Analytics
+* Processamento e modelagem de dados
+* Execução de consultas SQL analíticas
+
+O fluxo segue uma abordagem moderna de arquitetura analítica baseada em camadas, separando dados brutos, tratados e prontos para consumo.
+
+#### Conceitos Aplicados
+* ETL e ELT
+* Arquitetura em Nuvem
+* Data Lake
+* Data Warehouse
+* Orquestração de pipelines
+* Modelagem para consumo analítico
+* Transformação de dados em ambiente distribuído
+* Integração entre serviços Azure
+* Governança básica de dados
 
 🔗 [Acessar Projeto](https://github.com/nadinne94/azure-end-to-end-data-engineer-project)
 
