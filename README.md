@@ -146,7 +146,7 @@ Neste projeto, buscamos compreender os elementos subjacentes que contribuem para
 
 **Ferramentas:** Python, Análise Estatísitca: medidas, frquência e dispersão.
 
-🔗 [Acessar Projeto](https://github.com/nadinne94/desigualdade_genero)
+🔗 [Acessar Projeto](https://github.com/nadinne94/projeto_forbes_2023)
 
 ### Análise de Vendas
 Apresenta uma abordagem abrangente na compreensão do comportamento de compra de clientes por meio de uma análise exploratória descritiva. Utilizando técnicas de manipulação de dados, o objetivo principal é oferecer insights que orientem estratégias de negócios e impulsionem o crescimento das vendas.
